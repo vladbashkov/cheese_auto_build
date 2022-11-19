@@ -769,7 +769,11 @@ table {
   height: auto;
 }
 
-.gallery-section .container .info-container .block-column {
+.gallery-section .info-container {
+  text-align: center;
+}
+
+.gallery-section .info-container .block-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,18 +781,22 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: left;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
 }
 
-.gallery-section .container .info-container .block-column .text {
+.gallery-section .info-container .block-column .text {
   max-width: 430px;
 }
 
-.gallery-section .container .info-container .maintenance-icon {
+.gallery-section .info-container .info-block {
+  border-bottom: none;
+}
+
+.gallery-section .info-container .info-block .maintenance-icon {
   max-width: 55px;
+  margin: 10px 0;
 }
 
 .footer {
@@ -1041,6 +1049,10 @@ body .text-hover:hover {
     margin: 15px 0;
   }
 
+  .reach-us {
+    padding: 50px 0;
+  }
+
   .reach-us .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1095,6 +1107,10 @@ body .text-hover:hover {
     display: block;
   }
 
+  .gallery-section {
+    padding: 0 0 50px;
+  }
+
   .footer .container .footer-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1113,6 +1129,9 @@ body .text-hover:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #D2D3DA;
   }
 
@@ -1142,6 +1161,10 @@ body .text-hover:hover {
             align-items: center;
   }
 
+  .footer .container .footer-row .footer-col .contacts-icon {
+    display: none;
+  }
+
   .footer .container .footer-row .text-copyright {
     font-size: 12px;
     color: #D2D3DA;
@@ -1154,7 +1177,7 @@ body .text-hover:hover {
   }
 
   .services .container .services-container .service-block .block-header .block-title {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   .services .container .services-container .service-block .block-header .block-button {
