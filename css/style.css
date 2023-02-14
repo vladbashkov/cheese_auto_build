@@ -344,6 +344,7 @@ table {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  border: 1px solid #FFFFFF;
 }
 
 .top-button_container img {
@@ -517,6 +518,7 @@ table {
 
 .about-us .container .text-container .about-us_img-mobile {
   display: none;
+  border-radius: 18px;
 }
 
 .about-us .container .img-container {
@@ -1094,6 +1096,7 @@ body .text-hover:hover {
 
   .about-us {
     background: #1E224B;
+    padding: 120px 0 50px;
   }
 
   .about-us .container .text-container {
@@ -1146,10 +1149,16 @@ body .text-hover:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 0 10px 0 0;
   }
 
   .reach-us .container .text-container .reach-us_text {
     text-align: center;
+  }
+
+  .reach-us .container .reach-us_video {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -1167,6 +1176,11 @@ body .text-hover:hover {
     font-size: 14px;
   }
 
+  .hero-parallax {
+    background: url("../img/main.JPG") right/cover no-repeat;
+    background-attachment: unset;
+  }
+
   .hero-parallax .container {
     text-align: center;
     -webkit-box-align: center;
@@ -1176,6 +1190,11 @@ body .text-hover:hover {
 
   .contact-button {
     width: 100%;
+  }
+
+  .hero-parallax {
+    background: url("../img/main.JPG") right/cover no-repeat;
+    background-attachment: unset;
   }
 
   .hero-parallax .container {
@@ -1285,6 +1304,10 @@ body .text-hover:hover {
     padding: 0 0 50px;
   }
 
+  .pop-up_cover .pop-up_container {
+    width: 90vw;
+  }
+
   .footer .container .footer-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1376,7 +1399,7 @@ body .text-hover:hover {
 
 @media (max-width: 480px) {
   .about-us {
-    padding: 120px 0 50px;
+    padding: 80px 0 50px;
   }
 
   .about-us .container .text-container .about-us_text {
