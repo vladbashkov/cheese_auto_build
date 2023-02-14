@@ -713,6 +713,10 @@ table {
   width: 50%;
 }
 
+.reach-us .container .reach-us_map-container img {
+  max-width: 100%;
+}
+
 .reach-us .container .reach-us_video {
   margin: 50px auto 0;
   border-radius: 20px;
