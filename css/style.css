@@ -720,7 +720,7 @@ table {
 .reach-us .container .reach-us_video {
   margin: 50px auto 0;
   border-radius: 20px;
-  max-width: 50%;
+  width: 100%;
 }
 
 .gallery-section {
@@ -1162,7 +1162,6 @@ body .text-hover:hover {
 
   .reach-us .container .reach-us_video {
     max-width: 100%;
-    width: 100%;
   }
 }
 
