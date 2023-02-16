@@ -204,6 +204,7 @@ table {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-size: 22px;
 }
 
 .nav-menu .nav-menu_list-burger .list-item {
@@ -219,10 +220,9 @@ table {
   top: 40px;
 }
 
-.nav-menu .nav-menu_list-burger .lang-btn_container button {
+.nav-menu .nav-menu_list-burger .lang-btn_container {
   color: #FFFFFF;
-  font-size: 22px;
-  margin-top: 70px;
+  margin: 30px 0;
 }
 
 .nav-menu .nav-menu_list-burger.menuOpened {
@@ -487,7 +487,7 @@ table {
 }
 
 .about-us {
-  padding: 200px 0 100px;
+  padding: 150px 0 80px;
 }
 
 .about-us .container {
@@ -571,7 +571,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 30px 5%;
+  padding: 20px 5%;
   margin: 20px 0 10px;
   border-radius: 18px;
   cursor: pointer;
@@ -1001,6 +1001,7 @@ table {
 
 .footer .container .footer-row .footer-col .footer-logo {
   display: none;
+  margin: 0 0 5px 0;
 }
 
 .footer .container .footer-row .footer-col .footer-brandname {
@@ -1012,6 +1013,12 @@ table {
   font-size: 18px;
   font-weight: 300;
   margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer .container .footer-row .footer-col .text-strong {
@@ -1022,6 +1029,18 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer .container .footer-row .footer-col span.text-strong {
+  margin: 0 5px;
+}
+
+.footer .container .footer-row .footer-col a .text-strong {
+  margin: 0 5px;
+}
+
+.footer .container .footer-row .footer-col a.text-strong {
+  margin: 0 5px;
 }
 
 .footer .container .footer-row .footer-col .contacts-row {
@@ -1043,6 +1062,7 @@ table {
 
 .footer .container .footer-row .footer-col .contacts-icon {
   margin-right: 10px;
+  max-width: 14px;
 }
 
 body {
@@ -1251,7 +1271,7 @@ body .text-hover:hover {
   }
 
   .reach-us {
-    padding: 50px 0;
+    padding: 40px 0;
   }
 
   .reach-us .container {
@@ -1265,13 +1285,17 @@ body .text-hover:hover {
     width: 100%;
   }
 
+  .reach-us .container .text-container .reach-us_title {
+    font-size: 40px;
+  }
+
   .reach-us .container .reach-us_map-container {
     width: 100%;
     margin: 30px 0;
   }
 
   .footer {
-    padding: 100px 0 25px;
+    padding: 60px 0 20px;
   }
 
   .footer .container .footer-row .footer-col .footer-brandname {
@@ -1308,6 +1332,10 @@ body .text-hover:hover {
     display: block;
   }
 
+  .services .container {
+    padding: 40px 0;
+  }
+
   .gallery-section {
     padding: 0 0 50px;
   }
@@ -1326,7 +1354,7 @@ body .text-hover:hover {
 
   .footer .container .footer-row .footer-col {
     max-width: none;
-    margin: 20px 0;
+    margin: 10px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1354,7 +1382,11 @@ body .text-hover:hover {
 
   .footer .container .footer-row .footer-col .footer-brandname,
   .footer .container .footer-row .footer-col .text-strong {
-    margin: 20px 0;
+    margin: 10px 0;
+  }
+
+  .footer .container .footer-row .footer-col .footer-links {
+    margin: 5px 0;
   }
 
   .footer .container .footer-row .footer-col .contacts-row {
@@ -1378,7 +1410,7 @@ body .text-hover:hover {
 
 @media (max-width: 640px) {
   .services .container .services-container .service-block .block-header {
-    padding: 15px 5%;
+    padding: 10px 5%;
   }
 
   .services .container .services-container .service-block .block-header .block-title {
@@ -1406,16 +1438,32 @@ body .text-hover:hover {
 }
 
 @media (max-width: 480px) {
-  .about-us {
-    padding: 80px 0 50px;
-  }
-
   .about-us .container .text-container .about-us_text {
     font-size: 18px;
   }
 
   .reach-us .container .text-container .reach-us_text {
     font-size: 18px;
+  }
+
+  .footer .container .footer-row .footer-text,
+  .footer .container .footer-row .contacts-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer .container .footer-row span.text-strong {
+    margin: 5px 0 !important;
+  }
+
+  .footer .container .footer-row a .text-strong {
+    margin: 5px 0 !important;
+  }
+
+  .footer .container .footer-row a.text-strong {
+    margin: 5px 0 !important;
   }
 }
 
