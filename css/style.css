@@ -909,6 +909,11 @@ table {
   padding: 10px;
 }
 
+.pop-up_cover .pop-up_container .pop-up_form .form-item._error {
+  -webkit-box-shadow: 0 0 15px red;
+          box-shadow: 0 0 15px red;
+}
+
 .pop-up_cover .pop-up_container .pop-up_form .pop-up_contact-button {
   width: 100%;
   height: 40px;
