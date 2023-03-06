@@ -1068,7 +1068,7 @@ table {
 body {
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 body * {
